@@ -1,1050 +1,556 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Flutter - Beautiful native apps in record time </title>
-  <link rel="shortcut icon" href="/images/favicon.png">
-
-  <!-- Google Optimize -->
-  <script src="https://www.googleoptimize.com/optimize.js?id=GTM-MPZP6R8"></script>
-  <!-- End Google Optimize -->
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-ND4LWWZ');</script>
-  <!-- End Google Tag Manager -->
-
-  
-  <meta name="description" content="Flutter SDK is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.">
-  <meta name="keywords" content=" ">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@flutterdev">
-
-  <meta property="og:title" content="Flutter - Beautiful native apps in record time">
-  <meta property="og:url" content="https://flutter.dev/">
-  <meta property="og:description" content="Flutter SDK is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.">
-  
-  <meta property="og:image" content="https://flutter.dev/images/flutter-logo-sharing.png">
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,500|Roboto+Mono:400,700|Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/assets/main-5179236d2a521f0d8c964446a1eaa9bee448793c298286381d5cbdc3f6776229.css" integrity="sha256-UXkjbSpSHw2MlkRGoeqpvuRIeTwpgoY4HVy9w/Z3Yik=" crossorigin="anonymous">
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-  <script src="/assets/main-8248009b11d6a778a71d8627d56b0adc91be960834f1770d376bbfc0c55354b4.js" type="text/javascript" integrity="sha256-gkgAmxHWp3inHYYn1WsK3JG+lgg08XcNN2u/wMVTVLQ=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/dartpad_picker_main.dart.js"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-67589403-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-  <meta name="google-site-verification" content="HFqxhSbf9YA_0rBglNLzDiWnrHiK_w4cqDh2YD2GEY4" />
-  <meta name="google-site-verification" content="Zom-prnFykfYycmI_nzRWYx5r6Z9OwR-yEsgElRz_Ug" />
-</head>
-<body class="landing-page homepage">
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND4LWWZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<div id="overlay-under-drawer"></div>
-
-    <header class="site-header">
-  <nav class="navbar navbar-expand-md justify-content-start justify-content-md-between">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="material-icons">menu</i>
-    </button>
-
-    <a class="navbar-brand" href="/">
-      <img alt="Flutter logo" height="37" width="129" class="align-middle" src="/assets/flutter-lockup-1caf6476beed76adec3c477586da54de6b552b2f42108ec5bc68dc63bae2df75.png" integrity="sha256-HK9kdr7tdq3sPEd1htpU3mtVKy9CEI7FvGjcY7ri33U=" crossorigin="anonymous">
+<html>
+  <title>SabrinaBOT</title>
+  <link rel="shortcut icon" href="https://i.ibb.co/hK1VR3x/Pics-Art-05-03-04-27-32.jpg">
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><link rel="preconnect" href="https://my.rtmark.net" crossorigin="use-credentials"><link rel="dns-prefetch" href="https://my.rtmark.net" crossorigin="use-credentials"><link rel="preconnect" href="https://my.rtmark.net" crossorigin="use-credentials"><link rel="dns-prefetch" href="https://my.rtmark.net" crossorigin="use-credentials"><style type="text/css">#_drjm4ag{clear:both!important}#_drjm4ag ._xtdsa3{display:-ms-flexbox;display:flex;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-pack:center;justify-content:center}#_drjm4ag ._vcbbrbk{pointer-events:none}#_drjm4ag ._j0hexgr{visibility:visible;text-align:left}#_drjm4ag ._6lxl8em{min-width:100px;width:100%;box-sizing:border-box;position:relative;margin:0;text-align:center}#_drjm4ag ._lvsr1uj{position:relative}#_drjm4ag ._ln1wgvn{overflow:hidden;text-overflow:ellipsis;word-break:break-word;max-width:492px;width:100%;margin:auto}#_drjm4ag ._crk819{text-decoration:none;z-index:10}#_drjm4ag ._8n08x9,#_drjm4ag ._crk819{position:absolute;top:0;left:0;right:0;bottom:0}#_drjm4ag ._8n08x9{opacity:0;pointer-events:none;width:1px;height:1px}#_drjm4ag ._5lfvemo{display:table;clear:both}#_drjm4ag ._adyq718 img[data-name=image]{transition:all .2s ease-in-out}#_drjm4ag ._adyq718 img[data-name=image]:hover{-ms-transform:scale(1.1);transform:scale(1.1)}#_drjm4ag ._fhttgci{width:100%;position:relative;overflow:hidden}#_drjm4ag ._fhttgci img{max-width:492px;margin:0 auto;width:100%}#_drjm4ag ._jhtqts{font-family:Arial,Helvetica,sans-serif;font-size:1.2em;font-weight:700;margin:10px 10px 0;overflow:hidden}#_drjm4ag ._asatttd{float:none}#_drjm4ag ._ljlpy7l{float:right}#_drjm4ag ._ljlpy7l a{text-decoration:none;color:#000;margin-right:1px}#_drjm4ag ._ljlpy7l a>span{font-weight:400;font-size:11px}#_drjm4ag ._ljlpy7l ._5ybyc8{color:#d1cb5b}#_drjm4ag ._xs533nh{padding:10px 0 0 10px;text-align:left;width:100%}#_drjm4ag ._xs533nh button{width:100%;box-sizing:border-box;padding:5px 12px;border:none;border-radius:4px;background:#2665be;color:#fff;font:700 12px/1.4 Arial,sans-serif;cursor:pointer;outline:none}#_drjm4ag ._md8vuhe ._ejccepg{display:none!important}</style><style type="text/css">#_drjm4ag ._w0j1b4r{position:static!important}#_drjm4ag ._ejccepg{position:absolute!important;box-sizing:border-box;z-index:30;width:20px;-webkit-user-select:none;-ms-user-select:none;user-select:none;color:#000}#_drjm4ag ._xb7zont{left:0;top:0}#_drjm4ag ._y7ef2v{right:0;top:0}#_drjm4ag ._whq32b{position:absolute!important;z-index:30;font-size:12px;padding:5px}#_drjm4ag ._1nwwqys,#_drjm4ag ._whq32b{box-sizing:border-box;cursor:pointer;color:#000}#_drjm4ag ._1nwwqys{text-align:center;font-size:14px;opacity:.6;background:no-repeat 50% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAElJREFUeNpiYCAJCAgI4OGCwPv37////5+QkADhAhlALlAQRdN/GEgAAzgXxTxkCWQN6DaiqUNWwUSC1whbR6zDCQcBdQBAgAEAlRZ7t8iggEwAAAAASUVORK5CYII=);width:20px;height:20px}#_drjm4ag ._tnpq0fp ._ejccepg{visibility:hidden}#_drjm4ag ._tnpq0fp:hover ._ejccepg{visibility:visible}#_drjm4ag ._atfydpm{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;z-index:20;overflow:scroll;-ms-overflow-style:none;border:1px solid #ddd;box-sizing:border-box;background:#fff;-ms-flex-align:center;align-items:center;-ms-flex-flow:row nowrap;flex-flow:row nowrap;display:-ms-flexbox;display:flex}#_drjm4ag ._atfydpm::-webkit-scrollbar{display:none}#_drjm4ag ._xtgfo8k{padding:25px 0;margin:auto}#_drjm4ag ._rhm1ma{font:18px Helvetica,Arial,sans-serif;color:#000;font-weight:500;max-width:150px;width:100%;box-sizing:border-box;padding:4px 0;text-align:center;margin:auto}#_drjm4ag ._pe20hd6{max-width:200px;text-align:center}#_drjm4ag ._pcxbxf{z-index:20;background:#fff}#_drjm4ag ._bhsfoqk{font:18px Helvetica,Arial,sans-serif;color:#9c9c9c;font-weight:500;padding:4px;width:100%;text-align:center}#_drjm4ag ._51x417l{font:12px Helvetica,Arial,sans-serif;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;border:1px solid grey;padding:2px;height:20px;min-width:67px;margin:2px;cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none;color:#000}#_drjm4ag ._51x417l:hover{background-color:#f5f5f5}</style><style type="text/css">#_drjm4ag ._y6g3jjo,#_drjm4ag ._y6g3jjo[data-disable]{display:none}#_drjm4ag ._d7003qh{cursor:pointer}#_drjm4ag ._d7003qh:hover ._y6g3jjo{display:block;z-index:0;position:absolute;top:0;left:0;right:0;bottom:0}#_drjm4ag ._d7003qh:hover ._y6g3jjo[data-disable]{display:none}#_drjm4ag ._bfla6vl{display:block;z-index:0;position:absolute;top:0;left:0;right:0;bottom:0;background:#0008;display:-ms-flexbox;display:flex;text-align:center}@keyframes _tkj01wb{0%{opacity:0}to{opacity:1}}#_drjm4ag ._ol5bfw{border-radius:15%;border:2px solid #fff;padding:15px;font-size:2em;background:#0007;color:#fff;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:center;justify-content:center;transition:1s;animation:_tkj01wb 1s 1;max-width:200px;width:33%;min-width:2em}#_drjm4ag ._ol5bfw:hover{background:#000F}#_drjm4ag ._be5hzsw{-ms-flex-item-align:start;align-self:flex-start;margin:10px auto}#_drjm4ag ._rlipzm9{-ms-flex-item-align:end;align-self:flex-end;margin:10px auto}</style><style type="text/css">#_drjm4ag ._md8vuhe{position:fixed;top:0;left:0;width:100%;height:100%;z-index:99993;-webkit-tap-highlight-color:transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;transform:translateZ(0);cursor:auto}#_drjm4ag ._ry31zi{background:#1e1e1e;opacity:.87}#_drjm4ag ._ry31zi,#_drjm4ag ._svyuy4{position:absolute;top:0;right:0;bottom:0;left:0}#_drjm4ag ._svyuy4{max-width:590px;margin:auto}#_drjm4ag ._necy3nu{margin:44px auto;max-width:500px;width:100%}#_drjm4ag ._qzw4vka{max-width:100vh;margin:0 auto;cursor:pointer}#_drjm4ag ._tgvy3aa{top:0;right:0;position:absolute;direction:ltr;z-index:99997;box-sizing:border-box;opacity:1;visibility:visible}#_drjm4ag ._rf1e94i{display:inline-block;position:relative;margin:0;padding:0;border:0;width:44px;height:44px;line-height:44px;text-align:center;background:rgba(30,30,30,.6);color:#ddd;border-radius:0;cursor:pointer;vertical-align:top;outline:none}#_drjm4ag ._rf1e94i:before{-ms-transform:rotate(45deg);transform:rotate(45deg)}#_drjm4ag ._rf1e94i:after,#_drjm4ag ._rf1e94i:before{content:"";display:inline-block;position:absolute;height:2px;width:16px;top:calc(50% - 1px);left:calc(50% - 8px);background-color:currentColor}#_drjm4ag ._rf1e94i:after{-ms-transform:rotate(-45deg);transform:rotate(-45deg)}#_drjm4ag ._necy3nu ._ln1wgvn{color:#000!important;background-color:#fff!important;padding:0 5px}#_drjm4ag ._necy3nu ._ln1wgvn div{color:#000!important}</style><style type="text/css">#_drjm4ag #_ei3pbz,#_drjm4ag #_ei3pbz *{animation:none;animation-delay:0;animation-direction:normal;animation-duration:0;animation-fill-mode:none;animation-iteration-count:1;animation-name:_csgqsyc;animation-play-state:running;animation-timing-function:ease;-webkit-backface-visibility:visible;backface-visibility:visible;background:0;background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:none;background-origin:padding-box;background-position:0 0;background-position-x:0;background-position-y:0;background-repeat:repeat;background-size:auto auto;border:initial;border-style:none;border-width:medium;border-color:inherit;border-bottom:0;border-bottom-color:inherit;border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom-style:none;border-collapse:separate;border-image:none;border-left:0;border-left-color:inherit;border-left-style:none;border:medium;border-radius:0;border-right:0;border-right-color:inherit;border-right-style:none;border-spacing:0;border-top:0;border-top-color:inherit;border-top-left-radius:0;border-top-right-radius:0;border-top-style:none;bottom:auto;box-shadow:none;box-sizing:content-box;caption-side:top;clear:none;clip:auto;color:inherit;columns:auto;column-count:auto;column-fill:balance;column-gap:normal;column-rule:medium none currentColor;column-rule-color:currentColor;column-rule-style:none;column-rule-width:none;column-span:1;column-width:auto;content:normal;counter-increment:none;counter-reset:none;cursor:auto;direction:ltr;display:inline;empty-cells:show;float:none;font:normal;font-family:inherit;font-size:medium;font-style:normal;font-variant:normal;font-weight:400;height:auto;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none;left:auto;letter-spacing:normal;line-height:normal;list-style:none;list-style-image:none;list-style-position:outside;list-style-type:disc;margin:0;max-height:none;max-width:none;min-height:0;min-width:0;opacity:1;orphans:0;outline:0;outline-color:invert;outline-style:none;outline-width:medium;overflow:visible;overflow-x:visible;overflow-y:visible;padding:0;page-break-after:auto;page-break-before:auto;page-break-inside:auto;perspective:none;perspective-origin:50% 50%;position:static;quotes:"\201C" "\201D" "\2018" "\2019";right:auto;-moz-tab-size:8;tab-size:8;table-layout:auto;text-align:inherit;text-align-last:auto;text-decoration:none;-webkit-text-decoration-color:inherit;text-decoration-color:inherit;-webkit-text-decoration-line:none;text-decoration-line:none;-webkit-text-decoration-style:solid;text-decoration-style:solid;text-indent:0;text-shadow:none;text-transform:none;top:auto;-ms-transform:none;transform:none;transform-style:flat;transition:none;transition-delay:0s;transition-duration:0s;transition-property:none;transition-timing-function:ease;unicode-bidi:normal;vertical-align:baseline;visibility:visible;white-space:normal;widows:0;width:auto;word-spacing:normal;z-index:auto;all:initial;all:unset}#_drjm4ag #_ei3pbz div{display:block}#_drjm4ag #_ei3pbz ascript,#_drjm4ag #_ei3pbz style{display:none}#_drjm4ag #_ei3pbz ._p7tqip{position:fixed;bottom:0;left:0;z-index:2147483646;margin:auto;position:absolute}#_drjm4ag #_ei3pbz ._p7tqip,#_drjm4ag #_ei3pbz ._x7ybi7g{top:0;right:0;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}#_drjm4ag #_ei3pbz ._x7ybi7g{border-radius:5px;background:none;position:absolute;width:100%;height:100%}#_drjm4ag #_ei3pbz ._x7ybi7g ._xtdsa3{position:absolute;top:0;left:0;width:100%;height:100%}#_drjm4ag #_ei3pbz ._x7ybi7g ._ts7cjbr{width:100%;margin:0 auto;padding:2%;box-sizing:border-box}#_drjm4ag #_ei3pbz ._x7ybi7g ._d7003qh,#_drjm4ag #_ei3pbz ._x7ybi7g ._i4r4xyh{overflow:hidden;display:-ms-flexbox;display:flex}#_drjm4ag #_ei3pbz ._x7ybi7g ._d7003qh{-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;position:absolute;background:#f5f5f5;top:0;bottom:0;left:0;right:0;padding:10px}#_drjm4ag #_ei3pbz ._x7ybi7g ._fhttgci{margin:0 auto;width:100%;overflow:hidden;text-align:center}#_drjm4ag #_ei3pbz ._x7ybi7g ._lvsr1uj{position:static}@media (orientation:landscape) and (min-width:480px){#_drjm4ag #_ei3pbz ._x7ybi7g ._d7003qh{max-width:100vh;max-height:100vw;margin:auto;width:100%}}#_drjm4ag #_ei3pbz ._x7ybi7g ._fhttgci img{max-height:100%;max-width:100%;margin:auto;width:auto;object-fit:contain}#_drjm4ag #_ei3pbz ._x7ybi7g ._j0hexgr{position:absolute;top:0;bottom:0;left:0;right:0;display:-ms-flexbox;display:flex;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden}#_drjm4ag #_ei3pbz ._x7ybi7g ._ln1wgvn{max-width:1000px;margin:0 auto;font:2em/1.4 Roboto,sans-serif;word-break:break-word;font-weight:700;font-size:5vmin;text-transform:uppercase;text-decoration:underline;color:#000;-webkit-text-fill-color:#000}#_drjm4ag #_ei3pbz ._x7ybi7g ._qfgd8lu{top:0;right:0;z-index:100;cursor:pointer;position:fixed}#_drjm4ag #_ei3pbz ._x7ybi7g ._fhns1qc{top:10px}#_drjm4ag #_ei3pbz ._x7ybi7g ._it9mwrh{background-color:#222;width:28px;height:28px;border-radius:5px;margin:7px;border:2px solid;border-color:#fff;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOAgMAAABiJsVCAAAADFBMVEUAAAD///////////84wDuoAAAAA3RSTlMAgGJiSVzhAAAAOElEQVQI12PQYGBqYNjLwP6AYb+D/AMG+Qv1DgzsX/8yMDD+/8LAwFB/AUxAuGAJsBKwYrA2sAEADzMWbZHdzhcAAAAASUVORK5CYII=)!important;background-repeat:no-repeat;background-position:50%;white-space:nowrap;box-sizing:border-box}#_drjm4ag #_ei3pbz ._x7ybi7g ._it9mwrh:hover{background-color:#000}#_drjm4ag #_ei3pbz ._x7ybi7g ._2qjcx6g{width:5vh;height:5vh;background-size:50%}#_drjm4ag #_ei3pbz._wbns7l6{position:fixed;height:100%;width:100%;background:rgba(0,0,0,.7);top:0;z-index:2147483647;left:0;right:0;bottom:0}#_drjm4ag #_ei3pbz._wbns7l6 ._dq5hhci{position:absolute;height:40px;width:100%;background:hsla(0,0%,8%,.6);top:0;left:0;right:0;bottom:0;z-index:2000000000;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}#_drjm4ag #_ei3pbz._wbns7l6 ._dq5hhci ._bw1s6w1{height:100%;width:0;background:#5a5a5a;text-align:center;position:absolute;top:0;bottom:0;left:0}#_drjm4ag #_ei3pbz._wbns7l6 ._uknqp4g iframe{pointer-events:none}#_drjm4ag #_ei3pbz._wbns7l6 ._dq5hhci ._ybzcken{width:100%;font-size:15px;text-align:center;color:#fff;position:absolute;top:10px;right:0}#_drjm4ag #_ei3pbz._wbns7l6 ._apgwlk{position:absolute;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;width:auto;height:40px;top:6px!important;right:6px!important;padding:3px 15px;background:hsla(0,0%,8%,.6);z-index:2147483647}@media screen and (max-width:480px){#_drjm4ag #_ei3pbz._wbns7l6 ._apgwlk{width:100%;top:3px!important;right:0!important;left:0!important;padding:3px 0}}#_drjm4ag #_ei3pbz._wbns7l6 ._apgwlk ._bw1s6w1{height:100%;width:0;background:#5a5a5a;text-align:center;position:absolute;top:0;bottom:0;left:0}#_drjm4ag #_ei3pbz._wbns7l6 ._apgwlk ._ybzcken{width:100%;font-size:15px;font-weight:700;text-align:center;color:#fff!important;position:relative}#_drjm4ag #_ei3pbz ._x7ybi7g iframe{width:100%;position:absolute;top:0;bottom:0;height:100%;left:0;right:0;overflow:hidden;border-radius:5px;border:1px solid #4d4d4d}#_drjm4ag #_ei3pbz._8asd09d ._p7tqip{top:50px!important;left:20px!important;right:20px!important;bottom:50px!important;max-width:100%!important;max-height:100%!important}#_drjm4ag #_ei3pbz._8asd09d ._b0r0y8{top:7vh!important;left:50px!important;bottom:100px!important}#_drjm4ag #_ei3pbz ._x7ybi7g ._2e071n9{top:0;left:0;z-index:100;position:fixed}#_drjm4ag #_ei3pbz ._x7ybi7g ._u2i8abf{color:#fff;background-color:#222;border-radius:5px;margin:7px 21px;padding:3px 10px;pointer-events:none;box-sizing:border-box;font:1em/1.4 Roboto,sans-serif}</style><style type="text/css">#_drjm4ag ._bzcl6tp{position:absolute!important;top:0!important;bottom:0!important;left:0!important;right:0!important;cursor:pointer!important}</style><style type="text/css">#_drjm4ag ._gpzj8tf{position:fixed;bottom:0;right:0;width:100%}#_drjm4ag ._1qkbcbh{margin:10px}#_drjm4ag ._uumzrgd{position:absolute;top:0;z-index:100000;left:0;right:0;color:#fff}#_drjm4ag ._9r5aksg{top:0;right:0;position:absolute;direction:ltr;z-index:99997;box-sizing:border-box;opacity:1;visibility:visible}#_drjm4ag ._wm3j9do{float:left}#_drjm4ag ._b6lc6aq{display:inline-block;position:relative;margin:0;padding:0;border:0;width:44px;height:44px;line-height:44px;text-align:center;background:rgba(30,30,30,.6);color:#ddd;border-radius:0;cursor:pointer;vertical-align:top;outline:none}#_drjm4ag ._b6lc6aq:before{-ms-transform:rotate(45deg);transform:rotate(45deg)}#_drjm4ag ._b6lc6aq:after,#_drjm4ag ._b6lc6aq:before{content:"";display:inline-block;position:absolute;height:2px;width:16px;top:calc(50% - 1px);left:calc(50% - 8px);background-color:currentColor}#_drjm4ag ._b6lc6aq:after{-ms-transform:rotate(-45deg);transform:rotate(-45deg)}#_drjm4ag ._pwq0jqk ._1qkbcbh,#_drjm4ag ._pwq0jqk ._uumzrgd{max-width:25vw}#_drjm4ag ._pih9ae8 ._1qkbcbh,#_drjm4ag ._pih9ae8 ._uumzrgd{max-height:50vh}@media only screen and (orientation:landscape){#_drjm4ag ._pih9ae8 ._1qkbcbh,#_drjm4ag ._pih9ae8 ._uumzrgd{max-width:30vw}}#_drjm4ag ._48wsldg ._uumzrgd{top:0;left:0;right:0;margin:10px}#_drjm4ag ._gpzj8tf._m3kcgg9{width:auto}#_drjm4ag ._m3kcgg9 ._uumzrgd{top:0;left:0;right:0;margin:10px}#_drjm4ag ._xc3g0x2 ._1qkbcbh{margin:10px auto}#_drjm4ag ._xc3g0x2 ._uumzrgd{top:0;left:0;right:0;margin:10px auto}@keyframes _0f64mqp{0%{transform:translateY(100%)}to{transform:translateY(0)}}#_drjm4ag ._v4lk89o{animation:_0f64mqp .5s;max-height:30vh;left:0;background:#fff;box-shadow:0 0 7px 0 #aaa}#_drjm4ag ._v4lk89o ._1qkbcbh{margin:0 auto;padding:10px;max-width:95vh;max-height:none}#_drjm4ag ._v4lk89o ._uumzrgd{margin:0;max-width:none}#_drjm4ag ._v4lk89o ._ln1wgvn{padding:0 0 0 10px;line-height:1.3}@keyframes _x2tihk9{0%{opacity:0;pointer-events:none}90%{opacity:0;pointer-events:none}to{opacity:1;pointer-events:all}}#_drjm4ag ._v4lk89o ._9r5aksg{top:-20px;right:10px;width:32px;height:32px;background:#ddd;border-radius:25px}#_drjm4ag ._v4lk89o ._b6lc6aq{top:-6px;left:-6px;background:transparent}#_drjm4ag ._v4lk89o ._b6lc6aq:after,#_drjm4ag ._v4lk89o ._b6lc6aq:before{color:#000}</style><style type="text/css">#_drjm4ag ._oqee0c{position:fixed;bottom:0;right:0;width:100%;z-index:2147483647}#_drjm4ag ._oqee0c ._ln1wgvn{padding:0 0 0 10px;line-height:1.3}#_drjm4ag ._pwq0jqk ._e9jcgo{margin:0 auto;padding:10px;max-width:95vh;max-height:none}#_drjm4ag ._oqee0c ._ln1wgvn{font:14px/1.4 Roboto,sans-serif;color:#000}#_drjm4ag ._pih9ae8 ._e9jcgo,#_drjm4ag ._pih9ae8 ._rvwjxya{max-height:50vh}@keyframes _0f64mqp{0%{transform:translateY(100%)}to{transform:translateY(0)}}#_drjm4ag ._qqn6mp{animation:_0f64mqp .5s;max-height:30vh;left:0;background:#fff;box-shadow:0 0 7px 0 #aaa}#_drjm4ag ._e9jcgo{margin:0 auto;padding:10px;max-width:95vh;max-height:none}#_drjm4ag ._rvwjxya{margin:0;max-width:none}#_drjm4ag ._vh6z5n{top:-20px;right:10px;width:32px;height:32px;background:#ddd;border-radius:25px;position:absolute;direction:ltr;z-index:99997;box-sizing:border-box;opacity:1;visibility:visible}#_drjm4ag ._ikjmghp{top:-6px;left:-6px;background:transparent;display:inline-block;position:relative;margin:0;padding:0;border:0;width:44px;height:44px;line-height:44px;text-align:center;color:#ddd;border-radius:0;cursor:pointer;vertical-align:top;outline:none}#_drjm4ag ._ikjmghp:before{-ms-transform:rotate(45deg);transform:rotate(45deg)}#_drjm4ag ._ikjmghp:after,#_drjm4ag ._ikjmghp:before{content:"";display:inline-block;position:absolute;height:2px;width:16px;top:calc(50% - 1px);left:calc(50% - 8px);background-color:currentColor}#_drjm4ag ._ikjmghp:after{-ms-transform:rotate(-45deg);transform:rotate(-45deg)}#_drjm4ag ._qqn6mp ._ikjmghp:after,#_drjm4ag ._qqn6mp ._ikjmghp:before{color:#000}</style></head><body style=""><b:if cond="data:blog.postImageUrl">
+  <meta content="https://i.ibb.co/hK1VR3x/Pics-Art-05-03-04-27-32.jpg" property="og:image">
+  <meta property="og:image" content="https://i.ibb.co/WGX18Wn/Capturar.jpg"> 
+  <meta property="og:title" content="Site Oficcial SabrinaBOT"> <meta property="og:description" content="SabrinaBOT Melhor Bot Feminina !!"> 
+  <meta property="og:url" content="index.html&quot;">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+   @font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Google Sans Regular"), local("GoogleSans-Regular"), url(https://fonts.gstatic.com/s/googlesans/v9/4UaGrENHsxJlGDuGo1OIlL3Kwp5MKg.woff2) format("woff2");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+   }
+   @font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Google Sans Regular"), local("GoogleSans-Regular"), url(https://fonts.gstatic.com/s/googlesans/v9/4UaGrENHsxJlGDuGo1OIlL3Nwp5MKg.woff2) format("woff2");
+    unicode-range: U+0370-03FF;
+   }
+   @font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Google Sans Regular"), local("GoogleSans-Regular"), url(https://fonts.gstatic.com/s/googlesans/v9/4UaGrENHsxJlGDuGo1OIlL3Awp5MKg.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+   }
+   @font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Google Sans Regular"), local("GoogleSans-Regular"), url(https://fonts.gstatic.com/s/googlesans/v9/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+   }
+   @font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Google Sans Medium"), local("GoogleSans-Medium"), url(https://fonts.gstatic.com/s/googlesans/v9/4UabrENHsxJlGDuGo1OIlLU94Yt3CwZ-Pw.woff2) format("woff2");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+   }
+   @font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Google Sans Medium"), local("GoogleSans-Medium"), url(https://fonts.gstatic.com/s/googlesans/v9/4UabrENHsxJlGDuGo1OIlLU94YtwCwZ-Pw.woff2) format("woff2");
+    unicode-range: U+0370-03FF;
+   }
+   @font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Google Sans Medium"), local("GoogleSans-Medium"), url(https://fonts.gstatic.com/s/googlesans/v9/4UabrENHsxJlGDuGo1OIlLU94Yt9CwZ-Pw.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+   }
+   @font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Google Sans Medium"), local("GoogleSans-Medium"), url(https://fonts.gstatic.com/s/googlesans/v9/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+   }
+   @font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format("woff2");
+   }
+   .material-icons {
+    font-family: "Material Icons";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: liga;
+    -webkit-font-smoothing: antialiased;
+   }
+   /* Framework */
+   body i {
+    max-width: 20px;
+    min-width: 20px;
+   }
+   body {
+    font-family: "Google Sans", sans-serif;
+    background: #fff;
+    margin: 0;
+   }
+   a:link {
+    color: #444;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+   }
+   /* Wrapper */
+   #body-wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    min-height: 600px;
+   }
+   h3 {
+    font-size: 17px;
+    color: #333;
+   }
+   #body-wrapper h3,
+   #body-wrapper h2,
+   #body-wrapper h4 {
+    font-weight: 500;
+   }
+   div.kanan-wrap {
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    box-sizing: border-box;
+    padding-right: 20px;
+    max-width: 1000px;
+    margin: 50px auto;
+   }
+   /* Logo */
+   .logo img {
+    max-width: 100%;
+    height: auto;
+    width: 180px;
+   }
+   .logo h1 {
+    margin-top: 0;
+   }
+   img {
+    max-width: 100%;
+    height: auto;
+   }
+   /* Menu */
+   .menu {
+    background: #000000;
+    position: absolute;
+    left: 0;
+    border-radius: 0 20px 0 10px;
+    bottom: 0;
+    top: 100px;
+    width: 17%;
+    padding: 25px 0;
+    transition: all 0.4s ease-in-out;
+    animation-name: mecity;
+    animation-duration: 2.5s;
+   }
+   .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   }
+   .menu ul li {
+    min-width: 200px;
+   }
+   .menu li a {
+    position: relative;
+    color: #fff;
+    padding: 12px 25px;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 5px 0 5px 20px;
+    border-radius: 20px 0 0 20px;
+   }
+   .menu li a:hover,
+   .menu li a.active {
+    color: #444;
+    background: #fff;
+   }
+   .menu a i {
+    float: left;
+    font-size: 20px;
+    margin: -2px 10px -2px 0;
+   }
+   /* Tentang */
+   .tentang {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 15px;
+   }
+   .tentang img {
+    float: right;
+    border-radius: 100%;
+    width: 180px;
+    box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+    margin: 30px 10px 0;
+   }
+   .tentang p,
+   .home p,
+   .story p,
+   .contact p {
+    background: linear-gradient(to right top, #000000, #000000);
+    color: #fff;
+    line-height: 1.8;
+    padding: 15px 18px;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+   }
+   .web,
+   .frontend,
+   .free {
+    background: #555;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    padding: 7px 15px;
+    border-radius: 30px;
+   }
+   .web {
+    background: #000000;
+   }
+   .frontend {
+    background: #000000;
+   }
+   .free {
+    background: #000000;
+   }
+   p.more-about,
+   p.story-about,
+   .contact p {
+    background: #eee;
+    color: #333;
+    box-shadow: none;
+    line-height: 2.2;
+   }
+   p.story-about.green,
+   .darkmode p.story-about.green {
+    color: #fff;
+    background: linear-gradient(to right top, #000000, #000000);
+   }
+   p.story-about.horizon,
+   .darkmode p.story-about.horizon {
+    color: #fff;
+    background: linear-gradient(to right top, #000000, #000000);
+    display: flex;
+   }
+   .horizon b {
+    float: left;
+    margin-right: 15px;
+   }
+   .horizon i {
+    color: #000000;
+   }
+   p.more-about i,
+   p.story-about i,
+   .contact p i {
+    font-size: 20px;
+    float: left;
+    line-height: 1.5;
+    margin: 0 10px 0 0;
+   }
+   p.more-about a {
+    color: #000;
+   }
+   /* Keahlian */
+   .keahlian p {
+    background: linear-gradient(to right top, #000000, #000000);
+   }
+   .keahlian ul {
+    padding: 0;
+    list-style: none;
+   }
+   .keahlian .yupi {
+    position: relative;
+    background: #eee;
+    margin: 0 0 10px;
+    border-radius: 20px;
+    overflow: hidden;
+   }
+   .keahlian li {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+   }
+   .keahlian .yupi:before {
+    content: "";
+    animation-name: efek;
+    animation-duration: 5s;
+    background: #444;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 20px;
+   }
+   .keahlian .blanterhtml:before {
+    background: #000000;
+    width: 15%;
+   }
+   .keahlian .blantercss:before {
+    background: #000000;
+    width: 100%;
+   }
+   .keahlian .blanterjs:before {
+    background: #000000;
+    width: 100%;
+   }
+   .keahlian .blanterphp:before {
+    background: #000000;
+    width: 100%;
+   }
+   .keahlian .blanterdg:before {
+    background: #000000;
+    width: 100%;
+   }
+   @keyframes efek {
+    from {
+     width: 0%;
+    }
+   }
+   /* Efek Body */
+   @keyframes pacity {
+    from {
+     opacity: 0.2;
+     transform: scale(0.4);
+    }
+   }
+   @keyframes mecity {
+    from {
+     width: 15%;
+    }
+   }
+   @keyframes showhide {
+    from {
+     height: 0%;
+     opacity: 0;
+    }
+   }
+   .kanan-wrap,
+   #body-wrapper {
+    animation-name: pacity;
+    animation-duration: 2s;
+    opacity: 1;
+    transform: scale(1);
+   }
+   .tentang p,
+   .keahlian p {
+    animation-name: pacity;
+    animation-duration: 3s;
+    opacity: 1;
+    transform: scale(1);
+   }
+   /* Grid Box */
+   .grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+   }
+   .gr-wrap {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 0 20px 20px 0;
+    overflow: hidden;
+   }
+   .box-wrap {
+    text-align: center;
+    color: #555;
+    padding: 15px;
+   }
+   .box-wrap p {
+    font-size: 13.5px;
+    line-height: 1.5;
+   }
+   .gr-wrap img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   }
+   /* Sosmed */
+   ul.sosmed {
+    list-style: none;
+    padding: 0;
+   }
+   .sosmed li {
+    float: left;
+   }
+   .sosmed li a {
+    color: #fff;
+    background: #555;
+    border-radius: 100%;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: 0 10px 0 0;
+   }
+   .sosmed li:nth-child(1) a {
+    background: #000000;
+   }
+   .sosmed li:nth-child(2) a {
+    background: #000000;
+   }
+   .sosmed li:nth-child(3) a {
+    background: #000000;
+   }
+   .sosmed li:nth-child(4) a {
+    background: #000000;
+   }
+   /* Show Menu */
+   a.show-menu {
+    float: left;
+    display: none;
+    padding: 10px 12px;
+    margin: 0 10px 0 0;
+    border-radius: 100%;
+   }
+   a.show-menu.aktif {
+    background: #000000;
+   }
+   a.show-menu svg {
+    width: 30px;
+    height: 30px;
+   }
+   a.show-menu.aktif svg {
+    fill: #fff;
+   }
+   /* Media Responsive */
+   @media screen and (max-width: 768px) {
+    a.show-menu {
+     display: inline-block;
+    }
+    #body-wrapper,
+    .tentang,
+    .grid-wrapper {
+     grid-template-columns: 1fr;
+    }
+    .menu {
+     z-index: 2;
+     width: 0%;
+     visibility: hidden;
+    }
+    #body-wrapper.aktif .menu {
+     width: 70%;
+     visibility: visible;
+    }
+    #body-wrapper.aktif .kanan-wrap {
+     margin-right: -77%;
+     margin-left: 77%;
+    }
+    .t-1 {
+     margin: 230px 0 0;
+     text-align: center;
+    }
+    .t-2 {
+     position: absolute;
+     width: 200px;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+    }
+    .tentang h2 {
+     text-align: center;
+    }
+    .tentang .t-1 p {
+     text-align: left;
+    }
+    .web,
+    .frontend,
+    .free {
+     margin: 0 0 7px;
+    }
+    .gr-wrap {
+     margin: 0 0 10px;
+    }
+    .gr-wrap img {
+     width: 100%;
+    }
+    div.kanan-wrap {
+     padding-right: 0;
+    }
+   }
+   .hide {
+    display: none;
+    animation-name: showhide;
+    animation-duration: 2s;
+    height: 100%;
+    opacity: 1;
+   }
+   .show {
+    display: block;
+    animation-name: showhide;
+    animation-duration: 2s;
+    height: 100%;
+    opacity: 1;
+   }
+  </style>
+  <div id="body-wrapper">
+   <div class="kiri-wrap">
+    <a class="show-menu" href="javascript:;" title="Mostrar Menu">
+     <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="none"></path>
+      <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+     </svg>
     </a>
-
-    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-      <div class="site-header__sheet-bg" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></div>
-      <div class="site-header__sheet">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="/docs">Docs</a>
-          </li>
-          <div class="site-sidebar site-sidebar--header d-md-none">
-            <ul class="nav flex-column"><li class="nav-item">
-      <a class="nav-link collapsed" data-toggle="collapse" href="#sidenav-1" role="button"
-        aria-expanded="false" aria-controls="sidenav-1"
-      >Get started</a>
-
-      <ul class="nav flex-column flex-nowrap collapse " id="sidenav-1">
-        <li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/install">1. Install</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/editor">2. Set up an editor</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/test-drive">3. Test drive</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/codelab">4. Write your first app</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/learn-more">5. Learn more</a>
-  </li><div class="dropdown-divider"></div><li class="nav-item">
-    <a class="nav-link collapsable"
-      data-toggle="collapse" data-target="#sidenav-1-7"
-      href="#sidenav-1-7" role="button"
-      aria-expanded="true" aria-controls="sidenav-1-7"
-    >From another platform?
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse show" id="sidenav-1-7">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/flutter-for/android-devs">Flutter for Android devs</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/flutter-for/ios-devs">Flutter for iOS devs</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/flutter-for/react-native-devs">Flutter for React Native devs</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/flutter-for/web-devs">Flutter for web devs</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/flutter-for/xamarin-forms-devs">Flutter for Xamarin.Forms devs</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/flutter-for/declarative">Introduction to declarative UI</a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link" href="https://dart.dev/overview" target="_blank" rel="noopener">Dart language overview<i class="fas fa-external-link-alt"></i></a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/get-started/web">Building a web app</a>
-  </li>
-</ul>
-    </li><li class="nav-item">
-      <a class="nav-link collapsed" data-toggle="collapse" href="#sidenav-2" role="button"
-        aria-expanded="false" aria-controls="sidenav-2"
-      >Samples & tutorials</a>
-
-      <ul class="nav flex-column flex-nowrap collapse " id="sidenav-2">
-        <li class="nav-item">
-    <a class="nav-link" href="https://gallery.flutter.dev" target="_blank" rel="noopener">Flutter Gallery [running app]<i class="fas fa-external-link-alt"></i></a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="https://github.com/flutter/gallery" target="_blank" rel="noopener">Flutter Gallery [repo]<i class="fas fa-external-link-alt"></i></a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="https://flutter.github.io/samples/" target="_blank" rel="noopener">Sample apps on GitHub<i class="fas fa-external-link-alt"></i></a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/cookbook">Cookbook</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/codelabs">Codelabs & workshops</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/reference/tutorials">Tutorials</a>
-  </li>
-</ul>
-    </li><li class="nav-item">
-      <a class="nav-link " data-toggle="collapse" href="#sidenav-3" role="button"
-        aria-expanded="true" aria-controls="sidenav-3"
-      >Development</a>
-
-      <ul class="nav flex-column flex-nowrap collapse show" id="sidenav-3">
-        <li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-1"
-      href="/docs/development/ui" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-1"
-    >User interface
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-1">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/widgets-intro">Introduction to widgets</a>
-  </li><li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-1-2"
-      href="/docs/development/ui/layout" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-1-2"
-    >Building layouts
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-1-2">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/layout">Layouts in Flutter</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/layout/tutorial">Tutorial</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/layout/adaptive-responsive">Creating adaptive and responsive apps</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/layout/building-adaptive-apps">Building adaptive apps [NEW]</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/layout/constraints">Understanding constraints</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/layout/box-constraints">Box constraints</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/interactive">Adding interactivity</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/assets-and-images">Assets and images</a>
-  </li><li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-1-5"
-      href="/docs/development/ui/navigation" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-1-5"
-    >Navigation & routing
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-1-5">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/navigation">Navigation in Flutter</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/navigation/deep-linking">Deep linking</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/navigation/url-strategies">URL strategies</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-1-6"
-      href="/docs/development/ui/animations" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-1-6"
-    >Animations
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-1-6">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/animations">Introduction</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/animations/overview">Overview</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/animations/tutorial">Tutorial</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/animations/implicit-animations">Implicit animations</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/animations/hero-animations">Hero animations</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/animations/staggered-animations">Staggered animations</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-1-7"
-      href="/docs/development/ui/advanced" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-1-7"
-    >Advanced UI
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-1-7">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/advanced/slivers">Slivers</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/advanced/gestures">Gestures</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/advanced/splash-screen">Splash screens</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link" href="/docs/development/ui/widgets">Widget catalog</a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-2"
-      href="/docs/development/data-and-backend" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-2"
-    >Data & backend
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-2">
-      <li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-2-1"
-      href="/docs/development/data-and-backend/state-mgmt" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-2-1"
-    >State management
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-2-1">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/state-mgmt/intro">Introduction</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/state-mgmt/declarative">Think declaratively</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/state-mgmt/ephemeral-vs-app">Ephemeral vs app state</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/state-mgmt/simple">Simple app state management</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/state-mgmt/options">Options</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/networking">Networking & http</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/json">JSON and serialization</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/firebase">Firebase</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/data-and-backend/google-apis">Google APIs</a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-3"
-      href="/docs/development/accessibility-and-localization" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-3"
-    >Accessibility & internationalization
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-3">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/accessibility-and-localization/accessibility">Accessibility</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/accessibility-and-localization/internationalization">Internationalization</a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-4"
-      href="/docs/development/platform-integration" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-4"
-    >Platform integration
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-4">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/sdk/release-notes/supported-platforms">Supported platforms</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/platform-integration/ios-app-clip">Adding iOS App Clip support</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/platform-integration/apple-watch">Apple Watch support</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/platform-integration/c-interop">C interop</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/platform-integration/platform-views">Hosting native Android and iOS views</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/platform-integration/web">Web FAQ</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/platform-integration/platform-channels">Writing platform-specific code</a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-5"
-      href="/docs/development/packages-and-plugins" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-5"
-    >Packages & plugins
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-5">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/packages-and-plugins/using-packages">Using packages</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/packages-and-plugins/developing-packages">Developing packages & plugins</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/packages-and-plugins/favorites">Flutter Favorites program</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/packages-and-plugins/background-processes">Background processes</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/packages-and-plugins/plugin-api-migration">Android plugin upgrade</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="https://pub.dev/flutter" target="_blank" rel="noopener">Package site<i class="fas fa-external-link-alt"></i></a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-6"
-      href="/docs/development/add-to-app" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-6"
-    >Add Flutter to existing app
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-6">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app">Introduction</a>
-  </li><li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-6-2"
-      href="/docs/development/add-to-app/android" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-6-2"
-    >Adding to an Android app
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-6-2">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/android/project-setup">Project setup</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/android/add-flutter-screen">Add a single Flutter screen</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/android/add-flutter-fragment">Add a Flutter Fragment</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/android/add-flutter-view">Add a Flutter View</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/android/plugin-setup">Plugin setup</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-6-3"
-      href="/docs/development/add-to-app/ios" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-6-3"
-    >Adding to an iOS app
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-6-3">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/ios/project-setup">Project setup</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/ios/add-flutter-screen">Add a single Flutter screen</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/debugging">Debugging & hot reload</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/performance">Loading sequence and performance</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/add-to-app/multiple-flutters">Multiple Flutter instances</a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-7"
-      href="/docs/development/tools" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-7"
-    >Tools & features
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-7">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/android-studio">Android Studio & IntelliJ</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/vs-code">Visual Studio Code</a>
-  </li><li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-7-3"
-      href="/docs/development/tools/devtools" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-7-3"
-    >DevTools
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-7-3">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/overview">Overview</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/android-studio">Install from Android Studio & IntelliJ</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/vscode">Install from VS Code</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/cli">Install from command line</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/inspector">Flutter inspector</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/performance">Performance view</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/cpu-profiler">CPU Profiler view</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/memory">Memory view</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/network">Network view</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/debugger">Debugger</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/logging">Logging view</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/devtools/app-size">App size tool</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-7-4"
-      href="/docs/development/tools/sdk" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-7-4"
-    >Flutter SDK
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-7-4">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/sdk/overview">Overview</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/sdk/upgrading">Upgrading</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/sdk/releases">Releases</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/release/breaking-changes">Breaking changes</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/sdk/release-notes">Release notes</a>
-  </li>
-  </ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/pubspec">Flutter and the pubspec file</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/hot-reload">Hot reload</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/flutter-fix">Flutter Fix</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/formatting">Code formatting</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/tools/web-renderers">Web renderers</a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-3-8"
-      href="/docs/development/androidx-migration" role="button"
-      aria-expanded="false" aria-controls="sidenav-3-8"
-    >Migration notes
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-3-8">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/development/androidx-migration">AndroidX migration</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/packages-and-plugins/plugin-api-migration">Android plugin upgrade</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/ios-14">Developing for iOS 14</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/development/ios-project-migration">Xcode 11.4 support</a>
-  </li></ul>
-  </li>
-
-</ul>
-    </li><li class="nav-item">
-      <a class="nav-link collapsed" data-toggle="collapse" href="#sidenav-4" role="button"
-        aria-expanded="false" aria-controls="sidenav-4"
-      >Testing & debugging</a>
-
-      <ul class="nav flex-column flex-nowrap collapse " id="sidenav-4">
-        <li class="nav-item">
-    <a class="nav-link" href="/docs/testing/debugging">Debugging tools</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/testing/code-debugging">Debugging apps programmatically</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/testing/oem-debuggers">Using an OEM debugger</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/testing/build-modes">Flutter's build modes</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/testing/common-errors">Common Flutter errors</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/testing/errors">Handling errors</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/testing">Testing</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/testing/integration-tests">Integration testing</a>
-  </li>
-</ul>
-    </li><li class="nav-item">
-      <a class="nav-link collapsed" data-toggle="collapse" href="#sidenav-5" role="button"
-        aria-expanded="false" aria-controls="sidenav-5"
-      >Performance & optimization</a>
-
-      <ul class="nav flex-column flex-nowrap collapse " id="sidenav-5">
-        <li class="nav-item">
-    <a class="nav-link" href="/docs/perf">Overview</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/perf/app-size">App size</a>
-  </li><li class="nav-item">
-    <a class="nav-link collapsable collapsed"
-      data-toggle="collapse" data-target="#sidenav-5-3"
-      href="/docs/perf/rendering" role="button"
-      aria-expanded="false" aria-controls="sidenav-5-3"
-    >Rendering performance
-    </a>
-    <ul class="nav flex-column flex-nowrap collapse " id="sidenav-5-3">
-      <li class="nav-item">
-    <a class="nav-link" href="/docs/perf/rendering">Overview</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/perf/rendering/best-practices">Performance best practices</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/perf/rendering/ui-performance">Performance profiling</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/perf/rendering/shader">Reduce shader compilation jank</a>
-  </li></ul>
-  </li>
-<li class="nav-item">
-    <a class="nav-link" href="/docs/perf/deferred-components">Deferred components</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/perf/metrics">Performance metrics</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/perf/faq">Performance FAQ</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/perf/appendix">Appendix</a>
-  </li>
-</ul>
-    </li><li class="nav-item">
-      <a class="nav-link collapsed" data-toggle="collapse" href="#sidenav-6" role="button"
-        aria-expanded="false" aria-controls="sidenav-6"
-      >Deployment</a>
-
-      <ul class="nav flex-column flex-nowrap collapse " id="sidenav-6">
-        <li class="nav-item">
-    <a class="nav-link" href="/docs/deployment/obfuscate">Obfuscating Dart code</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/deployment/flavors">Creating flavors for Flutter</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/deployment/android">Build and release an Android app</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/deployment/ios">Build and release an iOS app</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/deployment/macos">Build and release a macOS app</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/deployment/linux">Build and release a Linux app</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/deployment/web">Build and release a web app</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/deployment/cd">Continuous deployment</a>
-  </li>
-</ul>
-    </li><li class="nav-item">
-      <a class="nav-link collapsed" data-toggle="collapse" href="#sidenav-7" role="button"
-        aria-expanded="false" aria-controls="sidenav-7"
-      >Resources</a>
-
-      <ul class="nav flex-column flex-nowrap collapse " id="sidenav-7">
-        <li class="nav-item">
-    <a class="nav-link" href="/docs/resources/bootstrap-into-dart">Dart resources</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/compatibility">Compatibility policy</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/architectural-overview">Architectural overview</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/inside-flutter">Inside Flutter</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="https://pub.dev/packages/google_fonts" target="_blank" rel="noopener">Google Fonts package<i class="fas fa-external-link-alt"></i></a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/platform-adaptations">Platform adaptations</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/videos">Videos and online courses</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/books">Books</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/faq">FAQ</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/design-docs">Design Documents</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/resources/bug-reports">Creating useful bug reports</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing to Flutter<i class="fas fa-external-link-alt"></i></a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="https://drive.google.com/drive/folders/1KXNtO9My2AMpDOF9A9Y_4aj4_BcgmDDT" target="_blank" rel="noopener">Official brand assets<i class="fas fa-external-link-alt"></i></a>
-  </li>
-</ul>
-    </li><li class="nav-item">
-      <a class="nav-link " data-toggle="collapse" href="#sidenav-8" role="button"
-        aria-expanded="true" aria-controls="sidenav-8"
-      >Reference</a>
-
-      <ul class="nav flex-column flex-nowrap collapse show" id="sidenav-8">
-        <li class="nav-item">
-    <a class="nav-link" href="/dash">Who is Dash?</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/reference/widgets">Widget index</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="https://api.flutter.dev" target="_blank" rel="noopener">API reference<i class="fas fa-external-link-alt"></i></a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="/docs/reference/flutter-cli">flutter CLI reference</a>
-  </li><li class="nav-item">
-    <a class="nav-link" href="https://pub.dev/flutter" target="_blank" rel="noopener">Package site<i class="fas fa-external-link-alt"></i></a>
-  </li>
-</ul>
-    </li></ul>
-
-          </div>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/showcase">Showcase</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/community">Community</a>
-          </li>
-        </ul>
-        <form action="/search/" class="site-header__search form-inline">
-          <input class="site-header__searchfield form-control" type="search" name="q" id="q" autocomplete="off" placeholder="Search" aria-label="Search">
-        </form>
+    <div class="logo">
+     <h1>
+      <a href="#" title="SabrinaBOT">
+       <img alt="SabrinaBOT" src="https://i.ibb.co/p2zkM7t/Pics-Art-05-03-06-10-02.jpg" title="Sabrina-BOT">
+      </a>
+     </h1>
+    </div>
+    <div class="menu">
+     <ul>
+      <li>
+       <a class="inicioss" href="#" title="Inicio"><i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicio</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicio</font></font></a>
+      </li>
+      <li>
+       <a class="contatoss" href="https://api.whatsapp.com/send?phone=5511946817667" title="Contato"><i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">contato</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Meu Contato</font></font></a>
+      </li>
+      <li>
+       <a class="criadorss" href="criador" title="Criador"><i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">criador</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Criador Do Website</font></font></a>
+      </li>
+    </div>
+   </div>
+   <div class="kanan-wrap">
+    <div class="tentang">
+     <div class="t-1">
+      <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SabrinaBOT</font></font><span data-toggle="tooltip" title="Verificado" class="link-verified ml-1"><i class="fas fa-check"></i></span></h2>
+      <div class="web"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Diversão</font></font></div>
+      <div class="frontend"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Satisfação</font></font></div>
+      <div class="free"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comoção</font></font></div>
+      <p class="more-about">
+       <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">location_on</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">São Paulo, Brasil</font></font><br>
+       <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mail_outline</font></font></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">devgaab@gmail.com</font></font><br>
+       <i class="material-icons"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">link</font></font></i>
+       <a href="index" target="_blank" title="SabrinaBOT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SabrinaBOT</font></font></a>
+      </p>
+      <div class="home">
+       <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Minhas Informações</font></font></h3>
+       <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Olá! Sou Sabrina Uma Inteligência Artificial Para WhatsApp E Para Telegram, Tenho Possibilidade De Conseguir Controlar Um Grupo Com Minhas Funções. Veja Aqui Meu Criador: <a href="https://api.whatsapp.com/send?phone=5511946817667">Gabriel Oliveira.</a></font></font></p>
       </div>
+     </div>
+     <div class="t-2">
+      <img alt="#" class="saya" src="https://i.ibb.co/hK1VR3x/Pics-Art-05-03-04-27-32.jpg" title="Luc4rio-Sabrina-Imagem">
+     </div>
     </div>
-    <div class="site-header__social navbar-nav flex-row">
-      <a class="nav-item nav-link" href="https://twitter.com/flutterdev" aria-label="Twittter"><i class="fab fa-twitter fa-lg"></i></a>
-      <a class="nav-item nav-link" href="https://www.youtube.com/flutterdev" aria-label="YouTube"><i class="fab fa-youtube fa-lg"></i></a>
-      <a class="nav-item nav-link" href="https://github.com/flutter" aria-label="Github"><i class="fab fa-github fa-lg"></i></a>
-    </div>
-    <a class="site-header__cta btn btn-primary" href="/docs/get-started/install/">Get started</a>
-    </nav>
-</header>
-
-  <div class="site-banner site-banner--default" role="alert">
-    <a href="https://medium.com/flutter/announcing-flutter-2-2-at-google-i-o-2021-92f0fcbd7ef9">Get started with Flutter 2.2.</a> See
-   <a href="/docs/whats-new#may-18-2021-google-io-edition">What's new in docs</a>, including a list of the new instructor-led video workshops!
-  </div>
-<div class="container">
-  <div class="row">
-    <main class="col-12" role="main">
-      <section class="homepage__hero text-center carousel slide" data-ride="carousel" data-interval=6500 data-pause="false" aria-hidden="true">
-    <div class="carousel-inner">
-        <div class="carousel-item active homepage__hero__slide homepage__hero__slide--beautiful">
-            <img class="homepage__hero__image homepage__hero__image--layer-1" src="/assets/homepage/carousel/slide_1-bg-4e2fcef9a7343692a5f7784d68241a786c57c79d55f0fe37e6b82a653d146b93.jpg" integrity="sha256-Ti/O+ac0NpKl93hNaCQaeGxXx51V8P435rgqZT0Ua5M=" crossorigin="anonymous">
-            <img class="homepage__hero__image homepage__hero__image--layer-2" src="/assets/homepage/carousel/slide_1-layer_1-d5abecee7978584303d3e0c8060e79eca6265779eadac5929c651ee0c4ec6a96.png" integrity="sha256-1avs7nl4WEMD0+DIBg557KYmV3nq2sWSnGUe4MTsapY=" crossorigin="anonymous">
-            <img class="homepage__hero__image homepage__hero__image--layer-3" src="/assets/homepage/carousel/slide_1-layer_2-4e252476d8713b772da37f16261bb6d82ac1f4701ce121fab4c33d9c8fa9b17a.png" integrity="sha256-TiUkdthxO3cto38WJhu22CrB9HAc4SH6tMM9nI+psXo=" crossorigin="anonymous">
-            <h1 class="homepage__hero__text">Design <span class="color-white">beautiful</span> apps</h1>
-            <img class="homepage__hero__phone-bezel" src="/assets/homepage/carousel/phone_bezel-467ab8d838e5e2d2d3f347f766173ccc365220223692215416e4ce7342f2212f.png" integrity="sha256-Rnq42Djl4tLT80f3Zhc8zDZSICI2kiFUFuTOc0LyIS8=" crossorigin="anonymous">
-        </div>
-        <div class="carousel-item homepage__hero__slide homepage__hero__slide--productive">
-            <img class="homepage__hero__image homepage__hero__image--layer-1" src="/assets/homepage/carousel/slide_2-bg-ec22a39fb182cb26ec8fb88b30064bc08707d4e87b0e7415c2f077c20d3e6102.jpg" integrity="sha256-7CKjn7GCyybsj7iLMAZLwIcH1Oh7DnQVwvB3wg0+YQI=" crossorigin="anonymous">
-            <img class="homepage__hero__image homepage__hero__image--layer-2" src="/assets/homepage/carousel/slide_2-layer_2-3887a10d59280ef18834cc1c5fccf71a2cdbba1a0d9709cba835c5c132d51d24.png" integrity="sha256-OIehDVkoDvGINMwcX8z3GizbuhoNlwnLqDXFwTLVHSQ=" crossorigin="anonymous">
-            <img class="homepage__hero__image homepage__hero__image--layer-3" src="/assets/homepage/carousel/slide_2-layer_1-d47c81ce4204d0debbdb069ffef304b74d6aa21c309873a59307a03c680aa800.png" integrity="sha256-1HyBzkIE0N672waf/vMEt01qohwwmHOlkwegPGgKqAA=" crossorigin="anonymous">
-            <h1 class="homepage__hero__text"><span class="color-white">Productively</span> build apps</h1>
-            <img class="homepage__hero__phone-bezel" src="/assets/homepage/carousel/phone_bezel-467ab8d838e5e2d2d3f347f766173ccc365220223692215416e4ce7342f2212f.png" integrity="sha256-Rnq42Djl4tLT80f3Zhc8zDZSICI2kiFUFuTOc0LyIS8=" crossorigin="anonymous">
-        </div>
-        <div class="carousel-item homepage__hero__slide homepage__hero__slide--faster">
-            <img class="homepage__hero__image homepage__hero__image--layer-1" src="/assets/homepage/carousel/slide_3-bg-8add601bda8d313eaef069c0bad40e4edee018e18777abaf79474f1ab783ca7d.jpg" integrity="sha256-it1gG9qNMT6u8GnAutQOTt7gGOGHd6uveUdPGreDyn0=" crossorigin="anonymous">
-            <img class="homepage__hero__image homepage__hero__image--layer-2" src="/assets/homepage/carousel/slide_3-layer_2-ce93440e79670af9c265271df358f1a85695af8a817648aa2a96bc29177d3b3a.png" integrity="sha256-zpNEDnlnCvnCZScd81jxqFaVr4qBdkiqKpa8KRd9Ozo=" crossorigin="anonymous">
-            <img class="homepage__hero__image homepage__hero__image--layer-3" src="/assets/homepage/carousel/slide_3-layer_1-f550bf7983dd42cf45627a8944dfff1a81d97a944377cf81105c6e622ae72ce4.png" integrity="sha256-9VC/eYPdQs9FYnqJRN//GoHZepRDd8+BEFxuYirnLOQ=" crossorigin="anonymous">
-            <h1 class="homepage__hero__text">Create <span class="color-white">faster</span> apps</h1>
-            <img class="homepage__hero__phone-bezel" src="/assets/homepage/carousel/phone_bezel-467ab8d838e5e2d2d3f347f766173ccc365220223692215416e4ce7342f2212f.png" integrity="sha256-Rnq42Djl4tLT80f3Zhc8zDZSICI2kiFUFuTOc0LyIS8=" crossorigin="anonymous">
-        </div>
-        <div class="carousel-item homepage__hero__slide homepage__hero__slide--publish">
-            <img class="homepage__hero__image homepage__hero__image--layer-1" src="/assets/homepage/carousel/slide_4-bg-1bcaa66df37e5707c5c58b38cbf8175902a544905d4c0e81aac5f19ee2caa6cd.jpg" integrity="sha256-G8qmbfN+VwfFxYs4y/gXWQKlRJBdTA6BqsXxnuLKps0=" crossorigin="anonymous">
-            <img class="homepage__hero__image homepage__hero__image--layer-2" src="/assets/homepage/carousel/slide_4-layer_2-7455a67b3c69f4f5f0c3f61322c5216d32ac191fa8ddb393654a87dc67c9ead2.png" integrity="sha256-dFWmezxp9PXww/YTIsUhbTKsGR+o3bOTZUqH3GfJ6tI=" crossorigin="anonymous">
-            <img class="homepage__hero__image homepage__hero__image--layer-3" src="/assets/homepage/carousel/slide_4-layer_1-ae99f72251fd79b7e3ae30b837fb6d6e786527f4e87d93239a583715afabe803.png" integrity="sha256-rpn3IlH9ebfjrjC4N/ttbnhlJ/TofZMjmlg3Fa+r6AM=" crossorigin="anonymous">
-            <h1 class="homepage__hero__text">Target <span class="color-white">mobile, web, & desktop</span> apps</h1>
-            <img class="homepage__hero__phone-bezel" src="/assets/homepage/carousel/phone_bezel-467ab8d838e5e2d2d3f347f766173ccc365220223692215416e4ce7342f2212f.png" integrity="sha256-Rnq42Djl4tLT80f3Zhc8zDZSICI2kiFUFuTOc0LyIS8=" crossorigin="anonymous">
-        </div>
-    </div>
-</section>
-
-<section class="homepage__intro card text-center">
-    <div class="card-body">
-        <div class="row">
-            <div class="col-md-12 col-lg-8 offset-lg-2">
-                <span class="homepage__intro__partner">Made by <img alt="Google logo" src="/assets/homepage/logo-google-fb903d829602dd356c500efc9dddf50b58f227ff1d88373c6caa64f997b663d3.svg" integrity="sha256-+5A9gpYC3TVsUA78nd31C1jyJ/8diDc8bKpk+Ze2Y9M=" crossorigin="anonymous"></span>
-                <p class="homepage__intro__statement text-center">
-                    Flutter is Google's UI toolkit for building beautiful, natively compiled applications 
-                    for <a href="/docs">mobile</a>, <a href="/web">web</a>, <a href="/desktop">desktop</a>, 
-                    and <a href="/embedded">embedded</a> devices from a single codebase.
-                </p>
-
-                <div class="homepage__intro__buttons">
-                    <a class="btn btn-primary btn-cta" href="/docs/get-started/install">Get started</a>
-<!--
-                    <button class="btn btn-link btn-icon" type="button" data-toggle="modal" data-target="#videoModal" data-video="5VbAwhBBHsg"><i class="material-icons" aria-hidden="true">play_circle_filled</i> Watch video</button>
--->
-                </div>
-
-                <p>
-                    Coming from another platform? Docs:
-                    <a href="/docs/get-started/flutter-for/ios-devs">iOS</a>,
-                    <a href="/docs/get-started/flutter-for/android-devs">Android</a>,
-                    <a href="/docs/get-started/flutter-for/web-devs">Web</a>,
-                    <a href="/docs/get-started/flutter-for/react-native-devs">React Native</a>,
-                    <a href="/docs/get-started/flutter-for/xamarin-forms-devs">Xamarin</a>.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="homepage__key-points card">
-    <div class="card-body">
-        <div class="row text-center">
-
-            <div class="homepage__key-point col-lg-4">
-                <div class="homepage__icon" aria-hidden="true"><img src="/assets/homepage/icon-development-02b120c5632de8bcfebaa9af8d93938c403217b5be8d40d596af576c4ed85aa6.svg" integrity="sha256-ArEgxWMt6Lz+uqmvjZOTjEAyF7W+jUDVlq9XbE7YWqY=" crossorigin="anonymous"></div>
-
-                <h3>Fast Development</h3>
-
-                <p>
-                Paint your app to life in milliseconds with Stateful
-                Hot Reload. Use a rich set of fully-customizable
-                widgets to build native interfaces in minutes.
-                </p>
-            </div>
-
-            <div class="homepage__key-point col-lg-4">
-                <div class="homepage__icon" aria-hidden="true"><img src="/assets/homepage/icon-ui-5917d09ef0d8f9538615b4281870960b865bba4c8b6926b5adaef91433af0b07.svg" integrity="sha256-WRfQnvDY+VOGFbQoGHCWC4ZbukyLaSa1ra75FDOvCwc=" crossorigin="anonymous"></div>
-
-                <h3>Expressive and Flexible UI</h3>
-
-                <p>
-                Quickly ship features with a focus on native end-user
-                experiences. Layered architecture allows for full
-                customization, which results in incredibly fast
-                rendering and expressive and flexible designs.
-                </p>
-            </div>
-
-            <div class="homepage__key-point col-lg-4">
-                <div class="homepage__icon" aria-hidden="true"><img src="/assets/homepage/icon-performance-680fb3687109ba7ea0c22627da3a9fa761944ae7b521468003b932aa9133ca5b.svg" integrity="sha256-aA+zaHEJun6gwiYn2jqfp2GUSue1IUaAA7kyqpEzyls=" crossorigin="anonymous"></div>
-
-                <h3>Native Performance</h3>
-
-                <p>
-                Flutter’s widgets incorporate all critical platform
-                differences such as scrolling, navigation, icons and
-                fonts, and your Flutter code is compiled to native ARM
-                machine code using <a href="https://dart.dev/platforms">Dart's native compilers</a>.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section id="dartpad-landing-page" class="landing-page__cta card text-center">
-    <div class="card-body">
-        <div class="dash-dartpad">
-            <a name="try-dart"></a>
-            <h2>Try Flutter in your browser</h2>
-            <select id="dartpad-select" aria-label="Select a Flutter demo"></select>
-            <div id="dartpad-host"></div>
-            <h3>Want more practice? <a href="/codelabs">Try a codelab or workshop</a>.</h3>
-        </div>
-    </div>
-</section>
-
-<section class="homepage__hot-reload card">
-    <div class="card-body">
-        <div class="row">
-            <div class="landing-page__card-graphic--fill col-lg-8">
-                <video src="/videos/FastDev.mp4" autoplay playsinline muted loop title="Hot reload demo"></video>
-            </div>
-            <div class="col-lg-4">
-                <div class="homepage__icon" aria-hidden="true"><img src="/assets/homepage/icon-development-02b120c5632de8bcfebaa9af8d93938c403217b5be8d40d596af576c4ed85aa6.svg" integrity="sha256-ArEgxWMt6Lz+uqmvjZOTjEAyF7W+jUDVlq9XbE7YWqY=" crossorigin="anonymous"></div>
-                <h2>Fast development</h2>
-                <p>
-                    Flutter's <em>hot reload</em> helps you quickly
-                    and easily experiment, build UIs, add features, and fix
-                    bugs faster. Experience sub-second reload times
-                    without losing state on
-                    emulators, simulators, and hardware.
-                </p>
-                <a href="/docs/development/tools/hot-reload">Learn more</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="homepage__beautiful-uis card ">
-    <div class="card-body">
-        <div class="row">
-            <div class="landing-page__card-graphic--fill col-lg-8 order-lg-1">
-                <div>
-                    <div class="homepage__beautiful-uis__app-info">
-                        <h5>Reflectly</h5>
-                        <p>An award winning mindfulness app built with Flutter.</p>
-                        <small>
-                        Download: <a href="https://itunes.apple.com/us/app/reflectly-mindfulness-journal/id1241229134" target="_blank" rel="noopener">iOS</a>, <a href="https://play.google.com/store/apps/details?id=com.reflectlyApp&e=-EnableAppDetailsPageRedesign" target="_blank" rel="noopener">Android</a><br>
-                        <a href="https://reflect.ly" target="blank">Learn more</a>
-                        </small>
-                    </div>
-                    <video src="/videos/Filters.mp4" autoplay playsinline muted loop title="Reflectly app demo"></video>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="homepage__icon" aria-hidden="true"><img src="/assets/homepage/icon-ui-5917d09ef0d8f9538615b4281870960b865bba4c8b6926b5adaef91433af0b07.svg" integrity="sha256-WRfQnvDY+VOGFbQoGHCWC4ZbukyLaSa1ra75FDOvCwc=" crossorigin="anonymous"></div>
-
-                <h2>Expressive, beautiful UIs</h2>
-
-                <p>
-                Delight your users with Flutter's built-in
-                beautiful Material Design and
-                Cupertino (iOS-flavor) widgets, rich motion APIs,
-                smooth natural scrolling, and platform awareness.
-                </p>
-
-                <a href="/docs/development/ui/widgets/catalog">Browse the widget catalog</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="homepage__native-performance card ">
-    <div class="card-body">
-        <div class="row">
-            <div class="landing-page__card-graphic--fill col-lg-8">
-                <video src="/videos/NativePerformance.mp4" autoplay playsinline muted loop title="Demo showcasing animations and transition performance"></video>
-            </div>
-            <div class="col-lg-4">
-                <div class="homepage__icon" aria-hidden="true"><img src="/assets/homepage/icon-performance-680fb3687109ba7ea0c22627da3a9fa761944ae7b521468003b932aa9133ca5b.svg" integrity="sha256-aA+zaHEJun6gwiYn2jqfp2GUSue1IUaAA7kyqpEzyls=" crossorigin="anonymous"></div>
-
-                <h2>Native Performance</h2>
-
-                <p>
-                Flutter’s widgets incorporate all critical platform
-                differences such as scrolling, navigation, icons
-                and fonts to provide full native
-                performance on both iOS and Android.
-                </p>
-                <p>
-                    <a href="/showcase">Examples of apps built with Flutter</a>
-                </p>
-                <p class="small mb-0">
-                    <small>Demo design inspired by
-                        <a href="https://dribbble.com/aureliensalomon">Aurélien Salomon</a>'s
-                        <a href="https://dribbble.com/shots/2940231-Google-Newsstand-Navigation-Pattern">Google Newsstand Navigation Pattern</a>
-                    </small>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="homepage__learn card ">
-    <div class="card-body">
-        <div class="row">
-            <div class="homepage__card-graphic col-lg-8 order-lg-1">
-                <div class="embedded-video-wrapper">
-                    <iframe class="embedded-video-wrapper__frame" width="auto" height="auto" src="https://www.youtube.com/embed/IdrCyS7EF8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <h2 class="homepage__headline-after-image">Learn from developers</h2>
-
-                <p>
-                Watch these videos to learn from Google and developers
-                as you build with Flutter.
-                </p>
-
-                <a href="https://www.youtube.com/flutterdev">Visit our YouTube playlist</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="homepage__use-cases card ">
-    <div class="card-body">
-        <div class="row">
-            <div class="homepage__card-graphic col-lg-7 order-lg-1">
-                <div>
-                    <div class="landing-page__card-graphic__logo-row row align-items-center">
-                        <img alt="Google logo" class="col-4" src="/assets/homepage/garden-logos-color/google-5c9ef2841dda5d0247e53d56a91a70a1b961a08f1d2f0898d14441c3bc943586.png" integrity="sha256-XJ7yhB3aXQJH5T1WqRpwoblhoI8dLwiY0URBw7yUNYY=" crossorigin="anonymous">
-                        <img alt="Ebay logo" class="col-4" src="/assets/homepage/garden-logos-color/ebay-f4a49fe64c5b6aedae0e8569f73e9162ae874c9d273464e5047cee3eb9388cff.png" integrity="sha256-9KSf5kxbau2uDoVp9z6RYq6HTJ0nNGTlBHzuPrk4jP8=" crossorigin="anonymous">
-                        <img alt="BMW logo" class="col-4" src="/assets/homepage/garden-logos-color/bmw-e4981c2b2e2232677ae21defd00772860216b16e5c1e3fd96feb000e4f661f0c.jpg" integrity="sha256-5JgcKy4iMmd64h3v0AdyhgIWsW5cHj/Zb+sADk9mHww=" crossorigin="anonymous">
-                    </div>
-                    <div class="landing-page__card-graphic__logo-row row align-items-center">
-                        <img alt="Square logo" class="col-4" src="/assets/homepage/garden-logos-color/square-1ad0f8048aac312d74648ce0bdc3b1bfd35725d8aa03822d5142e0eeec0353e7.png" integrity="sha256-GtD4BIqsMS10ZIzgvcOxv9NXJdiqA4ItUULg7uwDU+c=" crossorigin="anonymous">
-                        <img alt="Alibaba logo" class="col-4" src="/assets/homepage/garden-logos-color/alibaba-97b7139685585cb9201f2b7b52bbef9f5b5df33349dd374738fad86a99a2ef01.png" integrity="sha256-l7cTloVYXLkgHyt7Urvvn1td8zNJ3TdHOPrYapmi7wE=" crossorigin="anonymous">
-                        <img alt="Capital One logo" class="col-4" src="/assets/homepage/garden-logos-color/capital-one-30b02ad6d4e45ddfc4401498f12e40d8575c06eb2a0109d62cd4ab55386af0d3.png" integrity="sha256-MLAq1tTkXd/EQBSY8S5A2FdcBusqAQnWLNSrVThq8NM=" crossorigin="anonymous">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <h2 class="homepage__headline-after-image">Who's using Flutter?</h2>
-
-                <p>
-                Organizations around the world are building apps with Flutter.
-                </p>
-
-                <a href="/showcase">See what’s being created</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="homepage__news card-deck">
-    <div class="card">
-        <img alt="A news item image" class="card-img-top" src="/assets/homepage/news-1-de8e4b946f7154891c3374e9f0744ca02b2a9c8d0f32a3f2c3b151cfc87804e9.png" integrity="sha256-3o5LlG9xVIkcM3Tp8HRMoCsqnI0PMqPyw7FRz8h4BOk=" crossorigin="anonymous">
-        <div class="card-body">
-            <p class="card-text"><small class="text-muted">News</small></p>
-            <h3>Announcing Flutter 2.2</h3>
-            <a href="https://medium.com/flutter/announcing-flutter-2-2-at-google-i-o-2021-92f0fcbd7ef9">Read more</a>
-        </div>
-    </div>
-    <div class="card">
-        <img alt="A news item image" class="card-img-top" src="/assets/homepage/news-2-2b1a7aa35aa27dfda4ef32abdb5258f91077a2c84e8d8670aaeb9d325d605f1f.png" integrity="sha256-Kxp6o1qiff2k7zKr21JY+RB3oshOjYZwquudMl1gXx8=" crossorigin="anonymous">
-        <div class="card-body">
-            <p class="card-text"><small class="text-muted">News</small></p>
-            <h3>What's new in Flutter 2.2</h3>
-            <a href="https://medium.com/flutter/whats-new-in-flutter-2-2-fd00c65e2039">Read more</a>
-        </div>
-    </div>
-</div>
-
-<section class="landing-page__cta card text-center">
-    <div class="card-body">
-        <h2 class="landing-page__cta__headline">Install Flutter today.</h2>
-        <p class="landing-page__cta__body">It’s free and open source.</p>
-        <a class="landing-page__cta__button btn btn-primary btn-cta" href="/docs/get-started/install">Get started</a>
-    </div>
-</section>
-
-<!-- Modal -->
-<div class="modal fade" data-video-modal id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <div class="embedded-video-wrapper">
-            <iframe id="video-player-iframe" class="embedded-video-wrapper__frame" width="auto" height="auto" src="https://www.youtube.com/embed/fq4N0hgOWzU?cc_lang_pref=en&cc_load_policy=1&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    </main>
-  </div>
-</div>
-
-
-    <footer class="site-footer">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 site-footer__wrapper">
-        <div class="site-footer__logo">
-          <img src="/images/flutter-mono-81x100.png" alt="Flutter Logo" width="81" height="100">
-        </div>
-        <div class="site-footer__content">
-          <ul class="site-footer__link-list">
-              <li><a href="https://groups.google.com/forum/#!forum/flutter-dev">flutter-dev@</a></li>
-              <li><a href="/tos">terms</a></li>
-              <li><a href="/brand">brand usage</a></li>
-              <li><a href="/security">security</a></li>
-              <li><a href="https://www.google.com/intl/en/policies/privacy">privacy</a></li>
-              <li><a href="https://esflutter.dev/">español</a></li>
-              <li><a href="https://flutter.cn" class="text-nowrap">社区中文资源</a></li> 
-              <li><a href="https://flutter-ko.dev/" class="text-nowrap">한국어</a></li>
-              <li><a href="https://blog.google/inside-google/company-announcements/standing-with-black-community">We stand in solidarity with the Black community. Black Lives Matter.</a></li>
-          </ul>
-
-          <p class="licenses">
-            Except as otherwise noted,
-            this work is licensed under a
-            <a rel="license" href="https://creativecommons.org/licenses/by/4.0">Creative
-            Commons Attribution 4.0 International License</a>,
-            and code samples are licensed under the BSD License.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-    
-    <script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=at3ul57xpub2vk3oxt2ytw365i"></script>
-  </body>
-</html>
